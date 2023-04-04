@@ -1,5 +1,5 @@
 
-Sprite s;
+Player s;
 
 // function runs one time at the beginning
 // think... pre-code
@@ -13,4 +13,12 @@ void setup(){
 void draw(){
     s.update();
     s.display();
+}
+
+void keyPressed(){ // event: a key was pressed down
+
+}
+
+void keyReleased(){ // event: a key was released and it flung upward
+
 }
