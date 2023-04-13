@@ -6,8 +6,9 @@ Player s;
 void setup(){
     size(1024, 768); // window size, 800 wide, 600 tall
     _SM = new SpriteManager();
-    _SM.spawn(new Invader(250, 50));
+    //_SM.spawn(new Invader(250, 50));
     _SM.spawn(new Shooter(150, 100));
+    _SM.spawn(new Kamikaze(250, 50));
 }
 
 // always runs, at speed the speed of the frame rate
